@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Raíz Cuadrada\bin\Debug\Raíz Cuadrada.exe.config
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Raíz Cuadrada\bin\Debug\Raíz Cuadrada.exe
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Raíz Cuadrada\bin\Debug\Raíz Cuadrada.pdb
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Raíz Cuadrada\obj\Debug\Raíz Cuadrada.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Raíz Cuadrada\obj\Debug\Raíz Cuadrada.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Raíz Cuadrada\obj\Debug\Raíz_Cuadrada.Form1.resources
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Raíz Cuadrada\obj\Debug\Raíz_Cuadrada.Properties.Resources.resources
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Raíz Cuadrada\obj\Debug\Raíz Cuadrada.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Raíz Cuadrada\obj\Debug\Raíz Cuadrada.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Raíz Cuadrada\obj\Debug\Raíz Cuadrada.exe
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Raíz Cuadrada\obj\Debug\Raíz Cuadrada.pdb
