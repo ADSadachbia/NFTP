@@ -1,0 +1,12 @@
+#include <iostream>
+#include <chrono>
+
+using namespace std;
+
+int CalcularEdad() {
+    auto now = chrono::system_clock::now();
+    time_t t = chrono::system_clock::to_time_t(now);
+    cout << "La fecha actual es: " << ctime(&t);
+    return 0;
+}
+

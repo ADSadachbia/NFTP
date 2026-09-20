@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    for(int i = 1; i <= 12; i++) {
+        for(int j = 1; j <= 6; j++) {
+            cout << i << " x " << j << " = " << i*j << "\t";
+        }
+        for(int j = 12; j >= 7; j--) {
+            cout << i << " x " << j << " = " << i*j << "\t";
+        }
+        cout << endl;
+    }
+    return 0;
+}
+

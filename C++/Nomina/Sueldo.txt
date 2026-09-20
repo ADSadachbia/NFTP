@@ -1,0 +1,11 @@
+elaborar un programa usando funciones con las sig caractericas:
+
+1. Calcule el impuesto sobre la renta.
+2. Calcule seguro familiar de salud.
+3. Calcule AFP
+4. Calcule 1% de Infotep
+5. 2.5% de la cooperativa
+6. Restar al sueldo bruto para obtener sueldo neto
+7. Sumar el pago de horas extra al sueldo bruto
+
+pedir que entre el sueldo bruto, el porcentaje de la afp, del seguro familiar de salud
