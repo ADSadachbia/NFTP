@@ -1,0 +1,77 @@
+
+next()
+nextLine()
+nextInt()
+nextFloat()
+
+byte numberByte = Byte.parseByte(number);
+short numberShort = Short.parseShort(number);
+int numberInt = Integer.parseInt(number);
+long numberLong = Long.parseLong(number);
+float numberFloat = Float.parseFloat(number);
+double numberDouble = Double.parseDouble(number);
+boolean booleanPrimitivo = false;
+
+
+float f = 10f;
+int i = (int) f;
+
+ if (apellido1.equals(apellido2))
+ if (apellido1.equalsIgnoreCase(apellido2)) 
+
+
+  vector
+**********
+
+ int[] sueldos=new int[5];
+
+ private int[] sueldos;
+  sueldo=new int[5];
+
+ for(int f=0;f<nombres.length;f++)
+
+
+Programa
+********
+ import java.util.Scanner;
+
+public class Practica1 {
+
+	
+	public static void main(String[] pa) {
+		
+		System.out.println("Hola Carlos");
+		
+		
+		Scanner entrada=new Scanner(System.in);
+		
+		  int valor1, valor2;
+		  float suma=0, resta=0, multipli=0, divi=0;
+		  
+		  System.out.print("Entre primer valor  ");
+		  valor1= entrada.nextInt();
+		  
+		  System.out.print("Entre primer valor  "); 
+		  valor2= entrada.nextInt();
+		  System.out.println();
+		  
+		  suma = (valor1+valor2);
+		  resta = (valor1-valor2);
+		  multipli = (valor1*valor2);
+		  divi = (valor1/valor2);
+		  
+		  
+		  System.out.println("La suma es: "+suma);
+		  System.out.println("La resta es: "+resta);
+		  System.out.println("La multiplicacion es: "+multipli);
+		  System.out.println("La Division es: "+divi);
+		  
+		  
+		  
+		    
+		
+		
+		
+	}
+}
+
