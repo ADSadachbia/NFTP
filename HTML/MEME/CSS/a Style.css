@@ -1,0 +1,33 @@
+a {
+    color: hotpink;
+  }
+  /* unvisited link */
+  a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  /* visited link */
+  a:visited {
+    color: rgb(128, 0, 0);
+    text-decoration: none;
+  }
+  /*a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }*/
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: underline;
+  }

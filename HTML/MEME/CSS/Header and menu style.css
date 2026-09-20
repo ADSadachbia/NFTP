@@ -1,0 +1,82 @@
+.nav{
+padding: 0px;
+margin: 0px;
+}
+.nav{
+list-style: none;
+}
+.nav ul li{
+list-style: none;
+}
+#header{
+margin: auto;
+width: none;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+background-color: none; 
+color: none;
+text-decoration: none;
+padding: 10px 15px;
+display: block;
+}  
+.nav li a:hover{
+background-color: none;
+}
+.nav > li{
+float: left;
+}
+.nav li ul{
+display:none ;
+position: absolute;
+min-width: 140px;
+}
+.nav li:hover > ul {
+display: block;
+}
+.nav li ul li{
+position: relative;
+}
+.nav li ul li ul{
+right:-140px;
+top: 0px;
+}  
+.button {
+border: none;
+color: rgb(255, 139, 139);
+padding: 15px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-flex;
+font-size: 12px;
+margin: 3px 3px;
+cursor: pointer;
+}
+
+.button1 {background-color: rgb(123, 78, 78);}
+.button1:hover {
+background-color: rgb(216, 35, 40);
+color: rgb(255, 255, 255);}
+        
+.button2 {background-color: rgb(12, 94, 104);}
+.button2:hover {
+background-color: rgb(12, 94, 104);
+color: rgb(255, 255, 255);} 
+        
+.button3 {background-color:rgb(236, 231, 176);}
+.button3:hover {
+background-color:rgb(236, 231, 176);
+color: rgb(255, 255, 255);}
+  
+.button4 {background-color: rgb(124, 124, 118);}
+.button4:hover {background-color: rgb(124, 124, 118);
+color: rgb(255, 255, 255) }
+  
+.button5 {background-color: rgb(132, 124, 132) ;}
+.button5:hover {background-color: rgb(132, 124, 132);
+color: rgb(255, 255, 255)}
+  

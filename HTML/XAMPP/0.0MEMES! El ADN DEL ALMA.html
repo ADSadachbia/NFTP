@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMES</title>
+    <link rel="stylesheet" href="CSS//Style.css">
+    <link rel="stylesheet" href="CSS//Header and menu style.css">
+    <Style>*{
+      padding: 0px;
+      margin: 0px;
+    }
+    </Style>
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="JS/LoginPop.js"></script>
+</head>
+
+<body style="background-color:rgb(0, 0, 0) ;">
+  <button class="" onclick="openLoginPopup()">Abrir Popup de Login</button>
+
+
+
+  <div class="login-form">
+    <form method="post" action="login.php">
+        <div class="form-group">
+            <h5 style="color: rgb(0, 136, 255);">Usuario</h5>
+            <input type="text" id="user" class="input" name="username">
+        </div>
+        <div class="form-group">
+            <h5 style="color: rgb(0, 136, 255);">Password</h5>
+            <input type="password" id="password" class="input" name="password">  
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-primary" value="Login">
+        </div>
+    </form>
+</div>
+
+
+
+<div class="header" style="background-image: url(imgs/Banner.jpg)">
+  <h1 style="color: rgb(255, 0, 0);" class="banner">MEMES! THE DNA OF THE SOUL</h1>
+  <img id="Logo" src="imgs\Logo.jpg" alt=""/>
+</div>
+   
+<div id="header">
+<ul class="nav"> 
+  <li><a class="button button1" class="button button5" href="0.1 Inicia.html">Inicio</a></li>
+  <li><a class="button button2" href="1.Origen y Teoría.html">Concepto</a></li>
+  <li><a class="button button3" href="2.Internet.html">Internet</a></li>
+  <li><a class="button button4" href="3.Armas.html">Weapons</a></li>
+  <li><a class="button button5" href="4. War.html">WAR</a></li>
+  <li><a class="button button1" href="0.1 Inicia.html">MEMES</a>
+    <ul>
+      <li><a class="button button1" href="">THE</a></li>
+      <li><a class="button button2" href="">DNA</a></li>
+      <li><a class="button button3" href="">Of</a></li>
+      <li><a class="button button4" href="">THE</a></li>
+      <li><a class="button button5" href="">SOUL</a></li>
+    </ul>
+   </li>
+      
+</ul>
+</div>
+
+<section style="background-color: rgb(131, 131, 138); background-size: auto ; display: flex;">
+  <img style="margin: 15px " width="500"
+   src="imgs/MonsoonPortrait.jpg" width="800">
+ 
+  <p style="color:rgb(124, 14, 14);">
+"Religion is a joke. Free will is a myth. We're being controlled by something bigger. MEMES! THE DNA OF THE SOUL!
+They shape our will, they are our culture they are our EVERYTHING! EVERYTHING WE PASS ON."
+  </p>
+</section>
+
+
+<select id="frutas" name="frutas">
+  <option class="button button 1" value="manzana">Manzana</option>
+  <option value="naranja">Naranja</option>
+  <option value="plátano">Plátano</option>
+  <option value="uva">Uva</option>
+</select>
+
+</body>
+
+</html>
