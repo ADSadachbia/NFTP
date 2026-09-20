@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Interés Simple pero Mejor/1.0.0": {
+        "runtime": {
+          "Interés Simple pero Mejor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Interés Simple pero Mejor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "tres numero y diga cual es mayor y el mediano y pequeño/1.0.0": {
+        "runtime": {
+          "tres numero y diga cual es mayor y el mediano y pequeño.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tres numero y diga cual es mayor y el mediano y pequeño/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

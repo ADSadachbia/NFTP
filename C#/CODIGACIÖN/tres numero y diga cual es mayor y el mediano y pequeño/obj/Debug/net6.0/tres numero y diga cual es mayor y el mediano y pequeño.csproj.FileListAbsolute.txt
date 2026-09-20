@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\C#\GraficaciÖN\tres numero y diga cual es mayor y el mediano y pequeño\obj\Debug\net6.0\tres numero y diga cual es mayor y el mediano y pequeño.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\tres numero y diga cual es mayor y el mediano y pequeño\obj\Debug\net6.0\tres numero y diga cual es mayor y el mediano y pequeño.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\C#\GraficaciÖN\tres numero y diga cual es mayor y el mediano y pequeño\obj\Debug\net6.0\tres numero y diga cual es mayor y el mediano y pequeño.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\tres numero y diga cual es mayor y el mediano y pequeño\obj\Debug\net6.0\tres numero y diga cual es mayor y el mediano y pequeño.AssemblyInfo.cs
+C:\Users\Admin\Desktop\C#\GraficaciÖN\tres numero y diga cual es mayor y el mediano y pequeño\obj\Debug\net6.0\tres numero y diga cual es mayor y el mediano y pequeño.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\tres numero y diga cual es mayor y el mediano y pequeño\bin\Debug\net6.0\tres numero y diga cual es mayor y el mediano y pequeño.exe
+C:\Users\Admin\Desktop\C#\GraficaciÖN\tres numero y diga cual es mayor y el mediano y pequeño\bin\Debug\net6.0\tres numero y diga cual es mayor y el mediano y pequeño.deps.json
+C:\Users\Admin\Desktop\C#\GraficaciÖN\tres numero y diga cual es mayor y el mediano y pequeño\bin\Debug\net6.0\tres numero y diga cual es mayor y el mediano y pequeño.runtimeconfig.json
+C:\Users\Admin\Desktop\C#\GraficaciÖN\tres numero y diga cual es mayor y el mediano y pequeño\bin\Debug\net6.0\tres numero y diga cual es mayor y el mediano y pequeño.dll
+C:\Users\Admin\Desktop\C#\GraficaciÖN\tres numero y diga cual es mayor y el mediano y pequeño\bin\Debug\net6.0\tres numero y diga cual es mayor y el mediano y pequeño.pdb
+C:\Users\Admin\Desktop\C#\GraficaciÖN\tres numero y diga cual es mayor y el mediano y pequeño\obj\Debug\net6.0\tres numero y diga cual es mayor y el mediano y pequeño.dll
+C:\Users\Admin\Desktop\C#\GraficaciÖN\tres numero y diga cual es mayor y el mediano y pequeño\obj\Debug\net6.0\refint\tres numero y diga cual es mayor y el mediano y pequeño.dll
+C:\Users\Admin\Desktop\C#\GraficaciÖN\tres numero y diga cual es mayor y el mediano y pequeño\obj\Debug\net6.0\tres numero y diga cual es mayor y el mediano y pequeño.pdb
+C:\Users\Admin\Desktop\C#\GraficaciÖN\tres numero y diga cual es mayor y el mediano y pequeño\obj\Debug\net6.0\tres numero y diga cual es mayor y el mediano y pequeño.genruntimeconfig.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\tres numero y diga cual es mayor y el mediano y pequeño\obj\Debug\net6.0\ref\tres numero y diga cual es mayor y el mediano y pequeño.dll

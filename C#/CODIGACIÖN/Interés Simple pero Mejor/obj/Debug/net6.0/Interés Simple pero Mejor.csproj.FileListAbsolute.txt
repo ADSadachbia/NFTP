@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\C#\Interés Simple pero Mejor\obj\Debug\net6.0\Interés Simple pero Mejor.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\C#\Interés Simple pero Mejor\obj\Debug\net6.0\Interés Simple pero Mejor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\C#\Interés Simple pero Mejor\obj\Debug\net6.0\Interés Simple pero Mejor.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\C#\Interés Simple pero Mejor\obj\Debug\net6.0\Interés Simple pero Mejor.AssemblyInfo.cs
+C:\Users\Admin\Desktop\C#\Interés Simple pero Mejor\obj\Debug\net6.0\Interés Simple pero Mejor.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\C#\Interés Simple pero Mejor\bin\Debug\net6.0\Interés Simple pero Mejor.exe
+C:\Users\Admin\Desktop\C#\Interés Simple pero Mejor\bin\Debug\net6.0\Interés Simple pero Mejor.deps.json
+C:\Users\Admin\Desktop\C#\Interés Simple pero Mejor\bin\Debug\net6.0\Interés Simple pero Mejor.runtimeconfig.json
+C:\Users\Admin\Desktop\C#\Interés Simple pero Mejor\bin\Debug\net6.0\Interés Simple pero Mejor.dll
+C:\Users\Admin\Desktop\C#\Interés Simple pero Mejor\bin\Debug\net6.0\Interés Simple pero Mejor.pdb
+C:\Users\Admin\Desktop\C#\Interés Simple pero Mejor\obj\Debug\net6.0\Interés Simple pero Mejor.dll
+C:\Users\Admin\Desktop\C#\Interés Simple pero Mejor\obj\Debug\net6.0\refint\Interés Simple pero Mejor.dll
+C:\Users\Admin\Desktop\C#\Interés Simple pero Mejor\obj\Debug\net6.0\Interés Simple pero Mejor.pdb
+C:\Users\Admin\Desktop\C#\Interés Simple pero Mejor\obj\Debug\net6.0\Interés Simple pero Mejor.genruntimeconfig.cache
+C:\Users\Admin\Desktop\C#\Interés Simple pero Mejor\obj\Debug\net6.0\ref\Interés Simple pero Mejor.dll
