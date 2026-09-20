@@ -1,0 +1,17 @@
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Honestamente no sé\bin\Debug\net6.0-windows\Honestamente no sé.exe
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Honestamente no sé\bin\Debug\net6.0-windows\Honestamente no sé.deps.json
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Honestamente no sé\bin\Debug\net6.0-windows\Honestamente no sé.runtimeconfig.json
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Honestamente no sé\bin\Debug\net6.0-windows\Honestamente no sé.dll
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Honestamente no sé\bin\Debug\net6.0-windows\Honestamente no sé.pdb
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Honestamente no sé\obj\Debug\net6.0-windows\Honestamente no sé.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Honestamente no sé\obj\Debug\net6.0-windows\Honestamente_no_sé.Form1.resources
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Honestamente no sé\obj\Debug\net6.0-windows\Honestamente no sé.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Honestamente no sé\obj\Debug\net6.0-windows\Honestamente no sé.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Honestamente no sé\obj\Debug\net6.0-windows\Honestamente no sé.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Honestamente no sé\obj\Debug\net6.0-windows\Honestamente no sé.AssemblyInfo.cs
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Honestamente no sé\obj\Debug\net6.0-windows\Honestamente no sé.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Honestamente no sé\obj\Debug\net6.0-windows\Honestamente no sé.dll
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Honestamente no sé\obj\Debug\net6.0-windows\refint\Honestamente no sé.dll
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Honestamente no sé\obj\Debug\net6.0-windows\Honestamente no sé.pdb
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Honestamente no sé\obj\Debug\net6.0-windows\Honestamente no sé.genruntimeconfig.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Honestamente no sé\obj\Debug\net6.0-windows\ref\Honestamente no sé.dll
