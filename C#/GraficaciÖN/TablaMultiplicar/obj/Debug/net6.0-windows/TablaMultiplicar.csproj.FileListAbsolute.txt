@@ -1,0 +1,17 @@
+C:\Users\Admin\Desktop\C#\GraficaciÖN\TablaMultiplicar\bin\Debug\net6.0-windows\TablaMultiplicar.exe
+C:\Users\Admin\Desktop\C#\GraficaciÖN\TablaMultiplicar\bin\Debug\net6.0-windows\TablaMultiplicar.deps.json
+C:\Users\Admin\Desktop\C#\GraficaciÖN\TablaMultiplicar\bin\Debug\net6.0-windows\TablaMultiplicar.runtimeconfig.json
+C:\Users\Admin\Desktop\C#\GraficaciÖN\TablaMultiplicar\bin\Debug\net6.0-windows\TablaMultiplicar.dll
+C:\Users\Admin\Desktop\C#\GraficaciÖN\TablaMultiplicar\bin\Debug\net6.0-windows\TablaMultiplicar.pdb
+C:\Users\Admin\Desktop\C#\GraficaciÖN\TablaMultiplicar\obj\Debug\net6.0-windows\TablaMultiplicar.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\TablaMultiplicar\obj\Debug\net6.0-windows\TablaMultiplicar.Form1.resources
+C:\Users\Admin\Desktop\C#\GraficaciÖN\TablaMultiplicar\obj\Debug\net6.0-windows\TablaMultiplicar.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\TablaMultiplicar\obj\Debug\net6.0-windows\TablaMultiplicar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\C#\GraficaciÖN\TablaMultiplicar\obj\Debug\net6.0-windows\TablaMultiplicar.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\TablaMultiplicar\obj\Debug\net6.0-windows\TablaMultiplicar.AssemblyInfo.cs
+C:\Users\Admin\Desktop\C#\GraficaciÖN\TablaMultiplicar\obj\Debug\net6.0-windows\TablaMultiplicar.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\TablaMultiplicar\obj\Debug\net6.0-windows\TablaMultiplicar.dll
+C:\Users\Admin\Desktop\C#\GraficaciÖN\TablaMultiplicar\obj\Debug\net6.0-windows\refint\TablaMultiplicar.dll
+C:\Users\Admin\Desktop\C#\GraficaciÖN\TablaMultiplicar\obj\Debug\net6.0-windows\TablaMultiplicar.pdb
+C:\Users\Admin\Desktop\C#\GraficaciÖN\TablaMultiplicar\obj\Debug\net6.0-windows\TablaMultiplicar.genruntimeconfig.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\TablaMultiplicar\obj\Debug\net6.0-windows\ref\TablaMultiplicar.dll
