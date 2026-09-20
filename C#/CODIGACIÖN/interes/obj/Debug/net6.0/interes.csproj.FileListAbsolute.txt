@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\C#\interes\bin\Debug\net6.0\interes.exe
+C:\Users\Admin\Desktop\C#\interes\bin\Debug\net6.0\interes.deps.json
+C:\Users\Admin\Desktop\C#\interes\bin\Debug\net6.0\interes.runtimeconfig.json
+C:\Users\Admin\Desktop\C#\interes\bin\Debug\net6.0\interes.dll
+C:\Users\Admin\Desktop\C#\interes\bin\Debug\net6.0\interes.pdb
+C:\Users\Admin\Desktop\C#\interes\obj\Debug\net6.0\interes.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\C#\interes\obj\Debug\net6.0\interes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\C#\interes\obj\Debug\net6.0\interes.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\C#\interes\obj\Debug\net6.0\interes.AssemblyInfo.cs
+C:\Users\Admin\Desktop\C#\interes\obj\Debug\net6.0\interes.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\C#\interes\obj\Debug\net6.0\interes.dll
+C:\Users\Admin\Desktop\C#\interes\obj\Debug\net6.0\refint\interes.dll
+C:\Users\Admin\Desktop\C#\interes\obj\Debug\net6.0\interes.pdb
+C:\Users\Admin\Desktop\C#\interes\obj\Debug\net6.0\interes.genruntimeconfig.cache
+C:\Users\Admin\Desktop\C#\interes\obj\Debug\net6.0\ref\interes.dll

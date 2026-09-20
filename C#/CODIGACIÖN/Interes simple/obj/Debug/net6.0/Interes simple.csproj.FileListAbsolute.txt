@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\C#\Interes simple\bin\Debug\net6.0\Interes simple.exe
+C:\Users\Admin\Desktop\C#\Interes simple\bin\Debug\net6.0\Interes simple.deps.json
+C:\Users\Admin\Desktop\C#\Interes simple\bin\Debug\net6.0\Interes simple.runtimeconfig.json
+C:\Users\Admin\Desktop\C#\Interes simple\bin\Debug\net6.0\Interes simple.dll
+C:\Users\Admin\Desktop\C#\Interes simple\bin\Debug\net6.0\Interes simple.pdb
+C:\Users\Admin\Desktop\C#\Interes simple\obj\Debug\net6.0\Interes simple.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\C#\Interes simple\obj\Debug\net6.0\Interes simple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\C#\Interes simple\obj\Debug\net6.0\Interes simple.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\C#\Interes simple\obj\Debug\net6.0\Interes simple.AssemblyInfo.cs
+C:\Users\Admin\Desktop\C#\Interes simple\obj\Debug\net6.0\Interes simple.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\C#\Interes simple\obj\Debug\net6.0\Interes simple.dll
+C:\Users\Admin\Desktop\C#\Interes simple\obj\Debug\net6.0\refint\Interes simple.dll
+C:\Users\Admin\Desktop\C#\Interes simple\obj\Debug\net6.0\Interes simple.pdb
+C:\Users\Admin\Desktop\C#\Interes simple\obj\Debug\net6.0\Interes simple.genruntimeconfig.cache
+C:\Users\Admin\Desktop\C#\Interes simple\obj\Debug\net6.0\ref\Interes simple.dll

@@ -1,0 +1,5 @@
+C:\Users\Admin\Downloads\EvaluacionYMARTENT\CalcularEdad\obj\Debug\net6.0\CalcularEdad.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\EvaluacionYMARTENT\CalcularEdad\obj\Debug\net6.0\CalcularEdad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\EvaluacionYMARTENT\CalcularEdad\obj\Debug\net6.0\CalcularEdad.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\EvaluacionYMARTENT\CalcularEdad\obj\Debug\net6.0\CalcularEdad.AssemblyInfo.cs
+C:\Users\Admin\Downloads\EvaluacionYMARTENT\CalcularEdad\obj\Debug\net6.0\CalcularEdad.csproj.CoreCompileInputs.cache
