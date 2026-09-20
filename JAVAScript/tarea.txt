@@ -1,0 +1,153 @@
+https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+
+ahi estan los documentos para investigarlos
+
+JS
+
+createElement 
+// Create a new <div> element
+var div = document.createElement("div");
+
+// Set attributes and content for the element
+div.id = "myDiv";
+div.className = "myClass";
+div.innerHTML = "This is a dynamically created <div> element.";
+
+// Append the element to an existing element in the document
+var container = document.getElementById("container");
+container.appendChild(div);
+
+getElementbyID
+<!DOCTYPE html>
+<html>
+<head>
+  <title>getElementById Example</title>
+</head>
+<body>
+  <h1 id="myHeading">Hello, World!</h1>
+
+  <script>
+    // Acceder al elemento con id "myHeading"
+    var heading = document.getElementById("myHeading");
+
+    // Modificar el contenido del elemento
+    heading.innerHTML = "¡Hola, Mundo!";
+
+    // Cambiar el estilo del elemento
+    heading.style.color = "red";
+    heading.style.fontFamily = "Arial";
+  </script>
+</body>
+</html>
+
+getElementbyName
+<!DOCTYPE html>
+<html>
+<head>
+  <title>getElementsByName Example</title>
+</head>
+<body>
+  <input type="text" name="username">
+  <input type="text" name="username">
+  <input type="text" name="username">
+
+  <script>
+    // Acceder a todos los elementos con el nombre "username"
+    var elements = document.getElementsByName("username");
+
+    // Iterar sobre la colección de elementos y realizar modificaciones
+    for (var i = 0; i < elements.length; i++) {
+      var input = elements[i];
+      input.value = "John Doe";
+      input.style.backgroundColor = "lightblue";
+    }
+  </script>
+</body>
+</html>
+
+getelementbytagname
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>getElementsByTagName Example</title>
+</head>
+<body>
+  <h1>Heading 1</h1>
+  <p>Paragraph 1</p>
+  <h2>Heading 2</h2>
+  <p>Paragraph 2</p>
+  <h3>Heading 3</h3>
+  <p>Paragraph 3</p>
+
+  <script>
+    // Acceder a todos los elementos <h2>
+    var headings = document.getElementsByTagName("h2");
+
+    // Iterar sobre la colección de elementos y realizar modificaciones
+    for (var i = 0; i < headings.length; i++) {
+      var heading = headings[i];
+      heading.style.color = "blue";
+    }
+  </script>
+</body>
+</html>
+
+createtextnode 
+
+// Crear un nuevo nodo de texto
+var nodoTexto = document.createTextNode("Este es un nodo de texto creado dinámicamente.");
+
+// Agregar el nodo de texto a un elemento existente
+var contenedor = document.getElementById("contenedor");
+contenedor.appendChild(nodoTexto);
+
+appenchild
+
+// Crear un nuevo elemento <p>
+var parrafo = document.createElement("p");
+parrafo.textContent = "Este es un párrafo creado dinámicamente.";
+
+// Obtener el elemento contenedor
+var contenedor = document.getElementById("contenedor");
+
+// Agregar el párrafo como hijo del contenedor
+contenedor.appendChild(parrafo);
+
+setattribute
+
+// Obtener el elemento <img>
+var imagen = document.getElementById("miImagen");
+
+// Establecer el atributo src
+imagen.setAttribute("src", "imagen.jpg");
+
+// Establecer el atributo alt
+imagen.setAttribute("alt", "Descripción de la imagen");
+
+// Establecer el atributo class
+imagen.setAttribute("class", "imagen-destacada");
+
+removechild
+
+// Obtener el elemento padre
+var padre = document.getElementById("contenedor");
+
+// Obtener el elemento hijo a eliminar
+var hijo = document.getElementById("elementoEliminar");
+
+// Eliminar el elemento hijo del padre
+padre.removeChild(hijo);
+
+QueryselectorAll
+
+// Seleccionar todos los elementos <p> en el documento
+var parrafos = document.querySelectorAll("p");
+
+// Iterar sobre la colección de elementos y realizar modificaciones
+for (var i = 0; i < parrafos.length; i++) {
+  var parrafo = parrafos[i];
+  parrafo.style.color = "red";
+}
+
+

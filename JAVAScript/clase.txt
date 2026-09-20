@@ -1,0 +1,514 @@
+
+variables
+*********
+var 
+
+asignar datos
+*************
+var a=25;
+let a=36;
+
+salida a variable
+*****************
+console.log()
+document.write()
+alert()
+
+constante
+*********
+const pi=3.1415;
+
+entrada datos 
+*************
+let nombre;
+ let edad;
+        nombre = prompt('Ingrese su nombre:');
+        edad = prompt('Ingrese su edad:');
+       
+         document.write(edad);
+
+ <script>
+        var nombre;
+        var nota;
+        nombre = prompt('Ingrese nombre:');
+        nota = parseInt(prompt('Ingrese su nota:'));
+        if (nota >= 40) {
+            document.write(nombre + ' '+ ' esta aprobado con un ' +' '+ nota);
+        } else 
+        { alert("nota inferior");}
+        
+    </script>  
+
+
+
+*******************
+document.write('<br>');
+document.write('<br>' \n);
+*******************
+
+<script>
+        var valor1,valor2;
+        valor1 = prompt('Ingrese primer número:');
+        valor2 = prompt('Ingrese segundo número');
+        let suma = parseInt(valor1) + parseInt(valor2);
+        let producto = parseInt(valor1) * parseInt(valor2);
+        document.write('La suma es '+suma+'<br/>' +'y el producto es:' + producto);
+        document.write(suma);
+        document.write('<br>');
+        document.write('El producto es ');
+        document.write(producto);
+    </script>
+
+ <script>
+        let nombre;
+        let nota;
+        nombre = prompt('Ingrese nombre:');
+        nota = parseInt(prompt('Ingrese su nota:'));
+        if (nota >= 40) {
+            document.write(nombre + ' esta aprobado con un ' + nota);
+        }
+    </script>
+
+**********************
+concatenar +
+********************
+conversion tipo de datos
+************************
+let a = 5;
+let b = '6';
+let sum = a + b;  // '56'
+typeof sum;       // string
+
+let b = true;
+value = String(b);  // el valor es string "true"
+typeof value;       // string
+
+let a = '3';
+let b = '4';
+let times = a * b;  // 12
+typeof times;       // number
+
+let c = '4';
+let num = Number(c);  // 4
+typeof num;           // number
+
+let b = 1;
+let c = Boolean(b);  // true
+typeof c;    
+
+let cosmicdump = [3.14, 42, "Jupiter"];
+document.write(typeof cosmicdump[0]);
+document.write("<BR/>");
+document.write(typeof cosmicdump[2]);
+document.write("<BR/>");
+
+
+
+parseInt()
+parseString()
+parseDouble()
+parseDecimal()
+parseFloat()
+parseBoolean()
+
+String()
+Number()
+Boolean()
+
+
+
+******************
+<script>
+        let valor;
+        valor = parseInt(prompt('Ingrese un valor comprendido entre 1 y 5:'));
+        switch (valor) {
+            case 1:
+                document.write('uno');
+                break;
+            case 2:
+                document.write('dos');
+                break;
+            case 3:
+                document.write('tres');
+                break;
+            case 4:
+                document.write('cuatro');
+                break;
+            case 5:
+                document.write('cinco');
+                break;
+            default:
+                document.write('debe ingresar un valor comprendido entre 1 y 5.');
+        }
+    </script>
+
+**************
+bucles
+******
+while 
+do/while
+for
+
+funciones
+*********
+<script>
+        function mostrarMensaje() {
+            document.write("Error<br>");
+            document.write("Ingrese su documento correctamente<br>");
+        }
+
+        mostrarMensaje();
+        mostrarMensaje();
+        mostrarMensaje();
+    </script>
+
+*********************
+<script>
+        function calcularTabla() {
+            let valor = parseInt(prompt("Ingrese un numero"))
+            for (let f = 1; f <= 10; f++) {
+                let tabla = f * valor;
+                document.write(f + " * " + valor + " = " + tabla + '<br>')
+
+            }
+        }
+
+        calcularTabla();
+    </script>
+
+*****************
+  <script>
+        function mostrarComprendidos(inicio, fin) {
+            for (let f = inicio; f <= fin; f++) {
+                document.write(f + ' ');
+            }
+        }
+
+        let valor1 = parseInt(prompt('Ingrese valor inferior:'));
+        let valor2 = parseInt(prompt('Ingrese valor superior:'));
+        mostrarComprendidos(valor1, valor2);
+    </script>
+
+****************
+<script>
+function convertirCastellano(x) {
+            if (x == 1) {
+                return "uno";
+            } else {
+                if (x == 2) {
+                    return "dos";
+                } else {
+                    if (x == 3) {
+                        return "tres";
+                    } else {
+                        if (x == 4) {
+                            return "cuatro";
+                        } else {
+                            if (x == 5) {
+                                return "cinco";
+                            } else {
+                                return "valor incorrecto";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        let valor = parseInt(prompt("Ingrese un valor entre 1 y 5"));
+        let r = convertirCastellano(valor);
+        document.write(r);
+</script>
+*****************
+fecha de hoy
+<script>
+    var fecha;
+    fecha = new Date();
+    document.write(fecha.getDate() + '/');
+    document.write((fecha.getMonth() + 1) + '/');
+     document.write(fecha.getFullYear());
+
+ document.write('<br>');
+            document.write('Es la hora ');
+            document.write(fecha.getHours() + ':');
+            document.write(fecha.getMinutes() + ':');
+            document.write(fecha.getSeconds());
+    </script>  
+***************
+creacion de vector
+******************
+
+var valor=new array();
+var valor = [];
+
+let fruits = ["Apple", "Orange", "Plum"];
+
+alert( fruits[fruits.length-1] );
+
+matriz
+******
+let matrizIdentidad = [
+            [1, 0, 0],
+            [0, 1, 0],
+            [0, 0, 1]
+        ];
+        for (let f = 0; f < 3; f++) {
+            for (let c = 0; c < 3; c++) {
+                document.write(matrizIdentidad[f][c] + ' ');
+            }
+            document.write('<br>');
+        }
+
+otros ejemplos utilizando un boton con una funcion
+<form>
+        <input type="button" onClick="incrementar()" value="incrementar">
+    </form>
+
+    <script>
+        let contador = 0;
+
+        function incrementar() {
+            contador++;
+            alert('El contador ahora vale :' + contador);
+        }
+    </script>
+
+ <form>
+        <p>Ingrese su nombre:<input type="text" id="nombre"></p>
+        <p>Ingrese su edad:<input type="text" id="edad"></p>
+        <p><input type="button" value="Confirmar" onClick="mostrar()"></p>
+    </form>
+
+    <script>
+        function mostrar() {
+            let nom = document.getElementById('nombre').value;
+            let ed = document.getElementById('edad').value;
+            alert('Ingresó el nombre:' + nom);
+            alert('Y la edad:' + ed);
+        }
+    </script>
+
+clave oculta
+************
+<form>
+        Ingrese una clave:
+        <input type="password" id="clave">
+        <br>
+        <input type="button" value="Confirmar" onClick="verificar()">
+    </form>
+
+    <script>
+        function verificar() {
+            let clave = document.getElementById('clave').value;
+            if (clave.length < 5) {
+                alert('La clave no puede tener menos de 5 caracteres!!!');
+            } else {
+                alert('Largo de clave correcta');
+            }
+        }
+    </script>
+
+
+ingresar nombre y edad
+**********************
+<form>
+        <p>Ingrese su nombre:<input type="text" id="nombre"></p>
+        <p>Ingrese su edad:<input type="text" id="edad"></p>
+        <p><input type="button" value="Confirmar" onClick="mostrar()"></p>
+    </form>
+
+    <script>
+        function mostrar() {
+            let nom = document.getElementById('nombre').value;
+            let ed = document.getElementById('edad').value;
+            alert('Ingresó el nombre:' + nom);
+            alert('Y la edad:' + ed);
+        }
+    </script>
+
+control select
+**************
+<form>
+        <p><select id="select1" onChange="cambiarColor()">
+            <option value="ff0000">Rojo</option>
+            <option value="00ff00">Verde</option>
+            <option value="0000ff">Azul</option>
+        </select></p>
+        <p>Número de índice seleccionado del objeto SELECT:<input type="text" id="text1"></p>
+        <p>Texto seleccionado:<input type="text" id="text2"></p>
+        <p> Valor asociado:<input type="text" id="text3"></p>
+    </form>
+
+    <script>
+        function cambiarColor() {
+            let seleccion = document.getElementById('select1');
+            document.getElementById('text1').value = seleccion.selectedIndex;
+            document.getElementById('text2').value = seleccion.options[seleccion.selectedIndex].text;
+            document.getElementById('text3').value = seleccion.options[seleccion.selectedIndex].value;
+        }
+    </script>
+
+control checkbox
+****************
+<form>
+        <input type="checkbox" id="checkbox1">JavaScript
+        <br>
+        <input type="checkbox" id="checkbox2">PHP
+        <br>
+        <input type="checkbox" id="checkbox3">JSP
+        <br>
+        <input type="checkbox" id="checkbox4">VB.Net
+        <br>
+        <input type="button" value="Mostrar" onClick="contarSeleccionados()">
+    </form>
+
+    <script>
+        function contarSeleccionados() {
+            let cant = 0;
+            if (document.getElementById('checkbox1').checked) {
+                cant++;
+            }
+            if (document.getElementById('checkbox2').checked) {
+                cant++;
+            }
+            if (document.getElementById('checkbox3').checked) {
+                cant++;
+            }
+            if (document.getElementById('checkbox4').checked) {
+                cant++;
+            }
+            alert('Conoce ' + cant + ' lenguajes');
+        }
+    </script>
+
+control radio
+*************
+<form>
+        <input type="radio" id="radio1" name="estudios">Sin estudios
+        <br>
+        <input type="radio" id="radio2" name="estudios">Primarios
+        <br>
+        <input type="radio" id="radio3" name="estudios">Secundarios
+        <br>
+        <input type="radio" id="radio4" name="estudios">Universitarios
+        <br>
+        <input type="button" value="Mostrar" onClick="mostrarSeleccionado()">
+    </form>
+
+    <script>
+        function mostrarSeleccionado() {
+            if (document.getElementById('radio1').checked) {
+                alert('no tienes estudios');
+            }
+            if (document.getElementById('radio2').checked) {
+                alert('tienes estudios primarios');
+            }
+            if (document.getElementById('radio3').checked) {
+                alert('tienes estudios secundarios');
+            }
+            if (document.getElementById('radio4').checked) {
+                alert('tienes estudios universitarios');
+            }
+        }
+    </script>
+
+textarea
+********
+<form>
+        <p><textarea id="curriculum" rows="10" cols="50"></textarea></p>
+        <p><input type="button" value="Mostrar" onClick="controlarCaracteres()"></p>
+    </form>
+
+    <script>
+        function controlarCaracteres() {
+            if (document.getElementById('curriculum').value.length > 2000) {
+                alert('curriculum muy largo');
+            } else {
+                alert('datos correctos');
+            }
+        }
+    </script>
+
+Evento onfocus y onblur
+***********************
+Call a function when an input field gets focus:
+<input type="text" onfocus="myFunction()">
+
+function myFunction() {
+            
+                alert('datos correctos');
+            }
+
+<input type="text" onblur="myFunction2()">
+
+function myFunction2() {
+            
+                alert('datos correctos');
+            }
+
+
+Evento onMouseOver y onMouseOut
+*******************************
+
+ <a href="#" onMouseOver="pintar('#f00')" onMouseOut="pintar('#000')">Rojo</a> -
+    <a href="#" onMouseOver="pintar('#0f0')" onMouseOut="pintar('#000')">Verde</a> -
+    <a href="#" onMouseOver="pintar('#00f')" onMouseOut="pintar('#000')">Azul</a>
+    <div id="cuadrado1" style="background:#000;width:200px;height:200px"></div>
+
+    <script>
+        function pintar(col) {
+            document.getElementById('cuadrado1').style.backgroundColor = col;
+        }
+    </script>
+
+
+
+window
+*************
+ <p>Este programa permite analizar la llamada a distintas responsabilidades del objeto window.</p>
+    <form>
+        <br>
+        <input type="button" value="open()" onClick="abrir()">
+        <br>
+        <input type="button" value="open con parámetros" onClick="abrirParametros()">
+        <br>
+        <input type="button" value="alert" onClick="mostrarAlerta()">
+        <br>
+        <input type="button" value="confirm" onClick="confirmar()">
+        <br>
+        <input type="button" value="prompt" onClick="cargarCadena()">
+    </form>
+
+    <script>
+        function abrir() {
+            let ventana = open();
+            ventana.document.write("Estoy escribiendo en la nueva ventana<br>");
+           ventana.document.write("Segunda linea");
+           
+        }
+
+        function abrirParametros() {
+            let ventana = open('', '', 'status=yes,width=400,height=250,menubar=yes');
+            ventana.document.write("Esto es lo primero que aparece<br>");
+        }
+
+        function mostrarAlerta() {
+            alert("Esta ventana de alerta ya la utilizamos en otros problemas.");
+        }
+
+        function confirmar() {
+            let respuesta = confirm("Presione alguno de los dos botones");
+            if (respuesta == true)
+                alert("presionó aceptar");
+            else
+                alert("presionó cancelar");
+        }
+
+        function cargarCadena() {
+            let cad = prompt("cargue una cadena:");
+            alert("Usted ingreso " + cad);
+        }
+    </script>
+
+
+

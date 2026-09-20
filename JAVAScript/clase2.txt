@@ -1,0 +1,242 @@
+
+Estudiar e Investigar estos Eventos:
+***********************************
+
+onsubmit
+********
+<body>
+
+    <form method="post" action="procesar.php" onsubmit="validar();" id="formulario1">
+        Ingrese nombre:
+        <input type="text" id="usuario" name="usuario" size="20">
+        <br> Ingrese clave:
+        <input type="password" id="clave" name="clave" size="20">
+        <br>
+        <input type="submit" id="confirmar" name="confirmar" value="Confirmar">
+    </form>
+
+    <script>
+        function validar() {
+            let usu = document.getElementById("usuario").value;
+            let cla = document.getElementById("clave").value;
+            if (usu.length == 0 || cla.length == 0) {
+                alert('El nombre de usuario o clave está vacío');
+                return false;
+            } else
+                return true;
+        }
+    </script>
+
+</body>
+
+click ydblclick
+***************
+<body>
+    <script>
+        addEventListener('DOMContentLoaded', inicio);
+
+        function inicio() {
+            document.getElementById('recuadro1').addEventListener('click', presion1);
+            document.getElementById('recuadro2').addEventListener('dblclick', presion2);
+        }
+
+        function presion1() {
+            alert('se hizo click');
+        }
+
+        function presion2() {
+            alert('se hizo doble click');
+        }
+    </script>
+
+    <div style="width:200px;height:200px;background:#ffff00" id="recuadro1">
+        Prueba del evento click
+    </div>
+    <div style="width:200px;height:200px;background:#ff5500" id="recuadro2">
+        Prueba del evento dblclick
+    </div>
+
+</body>
+
+mousedown y mouseup
+*******************
+<body>
+
+    <p>Presione el recuadro amarillo sin soltar el botón del mouse.</p>
+    <div style="width:200px;height:200px;background:#ffff00" id="recuadro1">
+    </div>
+    <p>Presione el recuadro naranja y suelte el botón del mouse.</p>
+    <div style="width:200px;height:200px;background:#ff5500" id="recuadro2">
+    </div>
+
+    <script>
+        document.getElementById('recuadro1').addEventListener('mousedown', presion1);
+        document.getElementById('recuadro2').addEventListener('mouseup', presion2);
+
+        function presion1() {
+            document.getElementById('recuadro1').innerHTML = 'Se presione el mouse y todavía no se soltó';
+        }
+
+        function presion2() {
+            document.getElementById('recuadro2').innerHTML = 'Se presione el mouse y se soltó';
+        }
+    </script>
+
+</body>
+
+mouseover y mouseout
+********************
+<body>
+
+    <div style="width:200px;height:200px;background:#0000ff" id="recuadro1">
+    </div>
+
+    <script>
+        document.getElementById('recuadro1').addEventListener('mouseover', entrada);
+        document.getElementById('recuadro1').addEventListener('mouseout', salida);
+
+        function entrada() {
+            document.getElementById('recuadro1').style.borderRadius = '30px';
+        }
+
+        function salida() {
+            document.getElementById('recuadro1').style.borderRadius = '0px';
+        }
+    </script>
+
+</body>
+
+mousemove
+*********
+
+<body>
+
+    <div style="width:200px;height:200px;background:#0000ff" id="recuadro1">
+    </div>
+    <p id="cantidad">0</p>
+
+    <script>
+        document.getElementById('recuadro1').addEventListener('mousemove', mover);
+
+        function mover() {
+            let x = parseInt(document.getElementById('cantidad').innerHTML);
+            x++;
+            document.getElementById('cantidad').innerHTML = x;
+        }
+    </script>
+
+</body>
+
+keyup
+*****
+
+<body>
+
+    <input type="text" id="texto" maxlength="140" size="140">
+    <br>
+    <p>Máxima cantidad de caracteres disponibles:<span id="cantidad">140</span></p>
+
+    <script>
+        document.getElementById('texto').addEventListener('keyup', presion);
+
+        function presion() {
+            let canti = document.getElementById('texto').value.length;
+            let disponibles = 140 - parseInt(canti);
+            document.getElementById('cantidad').innerHTML = disponibles;
+        }
+    </script>
+
+</body>
+
+focus y blur
+************
+<body>
+
+    <input type="text" id="text1" name="text1" size="30">
+    <br>
+    <input type="text" id="text2" name="text2" size="30">
+
+    <script>
+        document.getElementById('text1').addEventListener('focus', tomarfoco1);
+        document.getElementById('text2').addEventListener('focus', tomarfoco2);
+        document.getElementById('text1').addEventListener('blur', perderfoco1);
+        document.getElementById('text2').addEventListener('blur', perderfoco2);
+
+        function tomarfoco1() {
+            document.getElementById('text1').style.color = '#ff0000';
+        }
+
+        function tomarfoco2() {
+            document.getElementById('text2').style.color = '#ff0000';
+        }
+
+        function perderfoco1() {
+            document.getElementById('text1').style.color = '#000000';
+        }
+
+        function perderfoco2() {
+            document.getElementById('text2').style.color = '#000000';
+        }
+    </script>
+
+</body>
+
+addEventListener
+****************
+
+<body>
+
+    <input type="button" id="boton0" name="boton0" value="0" class="boton">
+    <input type="button" id="boton1" name="boton1" value="1" class="boton">
+    <input type="button" id="boton2" name="boton2" value="2" class="boton">
+    <input type="button" id="boton3" name="boton3" value="3" class="boton">
+    <input type="button" id="boton4" name="boton4" value="4" class="boton">
+    <input type="button" id="boton5" name="boton5" value="5" class="boton">
+    <input type="button" id="boton6" name="boton6" value="6" class="boton">
+    <input type="button" id="boton7" name="boton7" value="7" class="boton">
+    <input type="button" id="boton8" name="boton8" value="8" class="boton">
+    <input type="button" id="boton9" name="boton9" value="9" class="boton">
+    <br>
+    <div id="resultado"></div>
+
+    <script>
+        for (let x = 0; x <= 9; x++) {
+            document.getElementById('boton' + x).addEventListener('click', presion);
+        }
+
+        function presion(evt) {
+            document.getElementById('resultado').innerHTML =
+                document.getElementById('resultado').innerHTML + evt.target.value;
+        }
+    </script>
+
+</body>
+
+submit
+******
+<body>
+
+    <form method="post" action="procesar.php" id="formulario1">
+        Ingrese clave:
+        <input type="password" id="clave1" name="clave1" size="20" required>
+        <br> Repita clave:
+        <input type="password" id="clave2" name="clave2" size="20" required>
+        <br>
+        <input type="submit" id="confirmar" name="confirmar" value="Confirmar">
+    </form>
+
+    <script>
+        document.getElementById("formulario1").addEventListener('submit', validar);
+
+        function validar(evt) {
+            let cla1 = document.getElementById("clave1").value;
+            let cla2 = document.getElementById("clave2").value;
+            if (cla1 != cla2) {
+                alert('Las claves ingresadas son distintas');
+                evt.preventDefault();
+            }
+        }
+    </script>
+
+</body>
+

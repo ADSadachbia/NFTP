@@ -1,0 +1,37 @@
+variables
+*********
+
+var
+
+asignar datos
+*********
+var a=25;
+let a=26;
+pueden ser string, int, bool...
+
+salida de variable
+**************
+console.log()
+
+document.write(""+a)
+
+alert()
+
+constante
+*********
+const pi=3.1415;
+
+entrada de datos
+**************
+
+let nombre;
+ let edad;
+   nombre = prompt("ingrese su nombre: ");
+
+document.write(nombre);
+
+<script>
+  var nombre;
+  var nota;
+  nombre = prompt ("ingrese nombre");
+  nota = parseInt (

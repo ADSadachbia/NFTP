@@ -1,0 +1,123 @@
+Trabajar con PHP
+****************
+instalar apache: apachefriends.org
+          luego se ejecuta como administrador.
+
+XAMPP
+file: C:/xampp/htdocs/
+http://localhost/trabajos_php/tarea1.php
+http://localhost/trabajos_php/ejercicio3.php
+
+trabajar en VSC interno
+***********************
+se debe instalar: PHP Extension Pack
+<?php
+
+?>
+
+trabajar en VSC externo
+***********************
+se debe de crear un archivo externo con extension .php
+y luego colocar:
+
+<?php
+
+?>
+
+sentencias
+**********
+print ' '. ' ';
+echo ' ', ' ';
+
+comentarios
+***********
+//
+/* */
+
+variables
+*********
+se crea con: $nombre_variable = ' ' o " ";//dentro de ellas su contenido.
+
+ejemplo: $sueldo = 45500;
+         $nombre = "jose perez";
+         $numero = 35.23;
+
+   print $nombre.$sueldo;
+   echo 'este numero es:'. $numero;
+   echo "este numero es: $numero";
+
+constante
+*********
+define('curso','php');
+
+echo curso;
+
+
+MANEJO DE NOTAS EN JAVASCRIPT
+*****************************
+EN HTML
+*******
+<body>
+ <label>Nota:</label> <input id="txtNota" type="text"/><button id="btnAgregar">Agregar</button>
+ <button id="btnborrar">Borrar datos</button>
+ <div id="divNotas"></div>
+    
+  
+
+</body>
+
+
+EN JAVASCRIPT
+*************
+window.onload = iniciar;
+function iniciar(){
+    var btnAgregar=document.getElementById("btnAgregar");
+    btnAgregar.addEventListener("click", btnAgregar2);
+   
+    var btnborrar=document.getElementById("btnborrar");
+    btnborrar.addEventListener("click", clickbtnborrar);
+   
+   
+    mostrarNotas();
+}
+ function clickbtnborrar(){
+    localStorage.clear();
+    mostrarNotas();
+ }
+
+function btnAgregar2(){
+    var txtNota = document.getElementById("txtNota");
+    
+
+    var notas = [];
+    if(localStorage.notas){
+       notas = JSON.parse(localStorage.notas);
+    }
+    
+
+    notas.push(txtNota.value);
+    localStorage.notas = JSON.stringify(notas);
+    mostrarNotas();
+    
+}
+
+function mostrarNotas(){
+    var divNotas = document.getElementById("divNotas");
+    
+    var notas = [];
+    if(localStorage.notas){
+       notas = JSON.parse(localStorage.notas);
+    }
+      
+    var html = "";
+    for(var nota of notas){
+      html += nota + "<br/>";
+    }
+    
+    divNotas.innerHTML = html;
+}
+
+
+
+
+

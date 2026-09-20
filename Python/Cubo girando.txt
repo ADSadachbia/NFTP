@@ -1,0 +1,285 @@
+#include <dos.h>
+
+#include <stdlib.h>
+
+#include <math.h>
+
+#include <graphics.h>
+
+
+
+void main()
+
+{
+
+  int X,X1,X2,X3,X4,X5,X6,X7,X8,X9,X10,X11,X12,X13,X14,X15,Y,Y1,Y2,Y3,Y4,Y5,Y6,Y7,Y8,Y9,Y10,Y11,Y12,Y13,Y14,Y15,Z,Z1,Z2,Z3,Z4,Z5,Z6,Z7,Z8,Z9;
+
+  int a,x,x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,y,y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y13,y14,y15,z,z1,z2,z3,z4,z5,z6,z7,z8,z9;
+
+  float i;
+
+
+
+  /* con estas funciones inicialisas modo grafico */
+
+  int graphdriver = DETECT, graphmode, errorcode;
+
+  initgraph(&graphdriver, &graphmode, "..//bgi");
+
+ 
+
+
+
+      i=0.0;
+
+      a=40;
+
+
+
+      do
+
+       {
+
+   Z=5;
+
+   x1=((-20*cos(i))-(20*sin(i)));
+
+   y1=((-20*sin(i))+(20*cos(i)));
+
+   X1=((x1*a)/Z);
+
+   Y1=((y1*a)/Z);
+
+   X=260+X1;
+
+   Y=200-Y1;
+
+
+
+   x2=((20*cos(i))-(20*sin(i)));
+
+   y2=((20*sin(i))+(20*cos(i)));
+
+   X2=((x2*a)/Z);
+
+   Y2=((y2*a)/Z);
+
+   X3=260+X2;
+
+   Y3=200-Y2;
+
+
+
+   x4=((-20*cos(i))-(-20*sin(i)));
+
+   y4=((-20*sin(i))+(-20*cos(i)));
+
+   X4=((x4*a)/Z);
+
+   Y4=((y4*a)/Z);
+
+   X5=260+X4;
+
+   Y5=200-Y4;
+
+
+
+   x6=((20*cos(i))-(-20*sin(i)));
+
+   y6=((20*sin(i))+(-20*cos(i)));
+
+   X6=((x6*a)/Z);
+
+   Y6=((y6*a)/Z);
+
+   X7=260+X6;
+
+   Y7=200-Y6;
+
+
+
+
+
+   Z1=20;
+
+   x8=((-20*cos(i))-(20*sin(i)));
+
+   y8=((-20*sin(i))+(20*cos(i)));
+
+   X8=((x8*a)/Z1);
+
+   Y8=((y8*a)/Z1); /* 140 y 80 en todos lo restantes*/
+
+   X9=140+X8;
+
+   Y9=80-Y8;
+
+
+
+   x10=((20*cos(i))-(20*sin(i)));
+
+   y10=((20*sin(i))+(20*cos(i)));
+
+   X10=((x10*a)/Z1);
+
+   Y10=((y10*a)/Z1);
+
+   X11=140+X10;
+
+   Y11=80-Y10;
+
+
+
+   x12=((-20*cos(i))-(-20*sin(i)));
+
+   y12=((-20*sin(i))+(-20*cos(i)));
+
+   X12=((x12*a)/Z1);
+
+   Y12=((y12*a)/Z1);
+
+   X13=140+X12;
+
+   Y13=80-Y12;
+
+
+
+   x14=((20*cos(i))-(-20*sin(i)));
+
+   y14=((20*sin(i))+(-20*cos(i)));
+
+   X14=((x14*a)/Z1);
+
+   Y14=((y14*a)/Z1);
+
+   X15=140+X14;
+
+   Y15=80-Y14;
+
+
+
+   i=i+0.1;
+
+   setcolor(14);
+
+   line(X,Y,X3,Y3);
+
+   setcolor(13);
+
+   line(X,Y,X5,Y5);
+
+   setcolor(11);
+
+   line(X3,Y3,X7,Y7);
+
+   setcolor(10);
+
+   line(X5,Y5,X7,Y7);
+
+   setcolor(9);
+
+   line(X9,Y9,X11,Y11);
+
+   setcolor(8);
+
+   line(X9,Y9,X13,Y13);
+
+   setcolor(7);
+
+   line(X11,Y11,X15,Y15);
+
+   setcolor(6);
+
+   line(X13,Y13,X15,Y15);
+
+   setcolor(5);
+
+   line(X,Y,X9,Y9);
+
+   setcolor(4);
+
+   line(X3,Y3,X11,Y11);
+
+   setcolor(3);
+
+   line(X5,Y5,X13,Y13);
+
+   setcolor(2);
+
+   line(X7,Y7,X15,Y15);
+
+   delay(50);
+
+
+
+   setcolor(0);
+
+   line(X,Y,X3,Y3);
+
+   line(X,Y,X5,Y5);
+
+   line(X3,Y3,X7,Y7);
+
+   line(X5,Y5,X7,Y7);
+
+   line(X9,Y9,X11,Y11);
+
+   line(X9,Y9,X13,Y13);
+
+   line(X11,Y11,X15,Y15);
+
+   line(X13,Y13,X15,Y15);
+
+
+
+   line(X,Y,X9,Y9);
+
+   line(X3,Y3,X11,Y11);
+
+   line(X5,Y5,X13,Y13);
+
+   line(X7,Y7,X15,Y15);
+
+
+
+      }while(i<=30);
+
+   setcolor(14);
+
+   line(X,Y,X3,Y3);
+
+   line(X,Y,X5,Y5);
+
+   line(X3,Y3,X7,Y7);
+
+   line(X5,Y5,X7,Y7);
+
+   line(X9,Y9,X11,Y11);
+
+   line(X9,Y9,X13,Y13);
+
+   line(X11,Y11,X15,Y15);
+
+   line(X13,Y13,X15,Y15);
+
+
+
+   line(X,Y,X9,Y9);
+
+   line(X3,Y3,X11,Y11);
+
+
+
+   line(X5,Y5,X13,Y13);
+
+   line(X7,Y7,X15,Y15);
+
+     delay(100);
+
+
+
+   /* cierra el entorno grafico */
+
+   closegraph();
+
+}

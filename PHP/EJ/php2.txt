@@ -1,0 +1,145 @@
+$hoy=date("y - m - d");
+arreglos
+********
+$frutas=array("fresa","pera","manzana");
+print_r($frutas);
+print_r($frutas[0]);
+
+ $nuevoArray = array(clave1 => valor1, clave2 => valor2, clave3 => valor3, ...);
+echo "mi fruta es:".$fruta['fresa'];
+//asociativos en lugar de usar indice usan claves.
+
+funciones para frutas
+$frutas=array("fresa","pera","manzana");
+array_push($frutas, "uva");//agrega un nuevo elemento al vector
+
+
+$semanas=['lunes','martes'];
+count($semanas)
+var_dump($semanas); //muestra el contenido del arreglo, no necesita echo.
+$semana2 = array_merge($semanas, ['miercoles']);
+
+$semanas[1] = 'jueves';//modificar un elemento
+unset($semanas[1]);//borrar un elemento
+
+$semanas[] = 'viernes';//añado elementos
+key($vector)//elemento actual
+next($vector)
+'<br/>'
+
+ $alumno[0] = 3.3;
+    $alumno[1] = 8.6;
+    $alumno[2] = 5.2;
+
+
+******************
+
+switch($val1)
+{
+     case 1: echo "se presiono el boton 1"; break;
+     case 2: echo "se presiono el boton 2"; break;
+     case 3: echo "se presiono el boton 3"; break;
+   default: echo "no se presiono nada"; break;
+} }
+
+
+$amigos2 = array_chunk(amigos, 4);//divide en 4 elementos y dos vectores
+print_r($amigos2);
+
+$amigos2 = array_slice(amigos, 6);//solo selecciona los elementos despues del 6 y los demas los borra.
+print_r($amigos2);
+
+combinar dos arrays
+*******************
+se necesitan dos arrays para unirlos
+
+$amigos = array('jose','carlos','maria','luisa');
+$compañeros = array('pedro','cecilia','damaris');
+
+$union = array_merge($amigos,$compañeros);
+print_r($union);
+
+$amigos = array_pop('jose','carlos','maria','luisa');
+ print_r($amigos);//muestra el ultimo elemento
+
+$buscar = array_search('jose',$amigos);
+ print_r($buscar);//buscar un elemento
+
+$orden = array_reverse($amigos);
+ print_r($buscar);//cambiar el orden de los elementos
+
+matriz
+******
+$matriz = array(
+        array(1,2,3,4,5),
+        array(6,7,8,9,10),
+        array(11,12,13,14,15)
+     );
+echo $matriz[1][2];
+
+foreach
+*******
+$baseball = array('medias_roja'=>'devers','padres'=>'tatis','toronto'=>'bladi');
+ foreach($baseball as $datos => $valor)
+ {
+      echo $datos.'<br/>';
+      echo $valor.'<br/>';
+    }
+
+
+funciones
+*********
+ function nombre($nombre_completo){
+    echo "estudiante nuevo: $nombre";
+}
+   nombre_completo('jose manuel jimenez');
+
+como traer un dato hacia php por el metodo POST
+***********************************************
+<?php //se puede colocar fuera o dentro de html
+
+  if($_POST){
+      
+        $nombre = $_POST['txtNombre'];
+    echo "Hola ".$nombre;
+    
+   }
+
+  
+?>
+
+<form action="ejercicio2.php" method="post">
+Nombre:
+<input type="text" name="txtNombre" id="">
+<br/>
+<input type="submit" value="Enviar">
+
+</form>
+
+como traer un dato hacia php por el metodo GET
+***********************************************
+
+
+
+
+ejercicios
+**********
+
+1- muestra los numeros entre 50 y 250.
+2-Hacer una aplicacion web que: reciba por teclado 5 sueldos, a cada uno de ellos 
+ se le calculara su: 1.2% de AFP, 2% de SS y su 5% de I/R si el sueldo pasa de: 
+ 33,500 pesos. Sacar tambien el promedio de los sueldos. Utilice los recursos 
+ que usted conoce para resolver este problema en javascript. Mostrar todos los sueldos 
+ con sus descuentos y el promedio.
+
+3- Hacer una aplicacion web que reciba 10 notas, saque el promedio y con el promedio
+ determinar: 
+   de 0-59 F
+      60-69 D
+      70-79 C
+      80-89 B
+      90-100 A
+
+  Mostrar el promedio de las notas en numero y letra en php.
+
+
