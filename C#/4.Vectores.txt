@@ -1,0 +1,35 @@
+En C#, los vectores son estructuras de datos que permiten almacenar una colección de elementos del mismo tipo en una secuencia contigua en memoria. También se conocen como arreglos o arrays en otros lenguajes de programación.
+
+La sintaxis básica para declarar y utilizar vectores en C# es la siguiente:
+´´´C#
+tipo[] nombreVector; // Declaración del vector
+
+nombreVector = new tipo[tamaño]; // Creación del vector con un tamaño específico
+
+nombreVector[indice] = valor; // Asignación de un valor a un elemento del vector
+
+tipo valor = nombreVector[indice]; // Acceso y asignación de un valor desde un elemento del vector
+´´´
+Aquí hay algunos ejemplos de cómo trabajar con vectores en C#:
+´´´C#
+int[] numeros; // Declaración del vector
+
+numeros = new int[5]; // Creación del vector con un tamaño de 5
+
+numeros[0] = 10; // Asignación del valor 10 al primer elemento del vector
+numeros[1] = 20; // Asignación del valor 20 al segundo elemento del vector
+
+int valor = numeros[0]; // Acceso al valor del primer elemento del vector (valor = 10)
+´´´
+En el primer ejemplo, se declara un vector de enteros llamado numeros. Luego, se crea el vector con un tamaño de 5 elementos utilizando el operador new. Después, se asignan valores a los elementos individuales del vector utilizando el índice (posición) entre corchetes. Finalmente, se accede al valor del primer elemento del vector utilizando el índice y se asigna a la variable valor.
+
+Es importante tener en cuenta que los índices en los vectores comienzan desde 0. Por lo tanto, el primer elemento tiene un índice de 0, el segundo elemento tiene un índice de 1, y así sucesivamente.
+´´´C#
+Además, en C# también se puede utilizar la inicialización de vectores para declarar y asignar valores en un solo paso. Por ejemplo:
+int[] numeros = { 10, 20, 30, 40, 50 }; // Declaración, creación y asignación de valores en un solo paso
+´´´
+En este caso, se declara y crea un vector de enteros llamado numeros con 5 elementos, y se asignan los valores especificados.
+
+Los vectores en C# pueden ser de cualquier tipo de dato, incluyendo tipos primitivos (enteros, booleanos, etc.) y tipos personalizados (clases, estructuras). También es posible crear vectores multidimensionales o vectores de vectores (matrices).
+
+Recuerda que al trabajar con vectores, debes asegurarte de acceder a los elementos dentro de los límites del tamaño del vector para evitar errores de índice fuera de rango.

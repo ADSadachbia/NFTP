@@ -1,0 +1,26 @@
+En C#, las asignaciones se realizan utilizando el operador de asignación =. Este operador permite asignar un valor a una variable o a un elemento de una estructura de datos.
+La sintaxis básica de una asignación en C# es la siguiente:
+variable = valor;
+Aquí hay algunos ejemplos de cómo se pueden realizar asignaciones en C#:
+´´´C#
+int x = 10; // Asignación de un valor entero a la variable 'x'
+
+string nombre = "Alice"; // Asignación de un valor de cadena a la variable 'nombre'
+
+bool esVerdadero = true; // Asignación de un valor booleano a la variable 'esVerdadero'
+
+double[] numeros = { 1.5, 2.3, 4.7 }; // Asignación de un arreglo de números a la variable 'numeros'
+´´´
+En el primer ejemplo, se asigna el valor entero 10 a la variable x. En el segundo ejemplo, se asigna el valor de cadena "Alice" a la variable nombre. En el tercer ejemplo, se asigna el valor booleano true a la variable esVerdadero. En el último ejemplo, se asigna un arreglo de números a la variable numeros.
+
+También puedes realizar asignaciones utilizando expresiones y operaciones. Por ejemplo:
+´´´C#
+int a = 5;
+int b = 2;
+int c = a + b; // Asignación del resultado de la suma a la variable 'c'
+´´´
+En este caso, se realiza la suma de las variables a y b, y el resultado se asigna a la variable c.
+
+Es importante tener en cuenta que en C#, las asignaciones son por valor para tipos de datos primitivos como enteros, booleanos, etc. Esto significa que se crea una copia del valor original. Sin embargo, para tipos de datos compuestos como arreglos, clases o estructuras, las asignaciones son por referencia, lo que significa que se comparte la misma referencia al objeto en memoria.
+
+Recuerda que al realizar asignaciones, debes asegurarte de que el tipo de dato de la variable coincida con el tipo de dato del valor que estás asignando. De lo contrario, se producirán errores de compilación.
