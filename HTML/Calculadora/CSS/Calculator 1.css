@@ -1,0 +1,27 @@
+.calculator {
+display: inline-block;
+border: 1px solid rgb(220, 20, 60);
+padding: 10px;
+}
+.calculator input[type="text"] {
+width: 100%;
+margin-bottom: 10px;
+}
+.calculator .row {
+display: flex;
+justify-content: space-between;
+margin-bottom: 5px;
+}
+.calculator .row .button {
+ flex: 1;
+ margin-right: 5px;
+}
+body{
+    justify-content: space-between;
+    background-color: beige;
+}
+.button .row{
+display: grid;
+grid-gap: 10px;
+grid-template-columns: repeat(3, 1fr);
+}
