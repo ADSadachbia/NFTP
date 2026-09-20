@@ -1,0 +1,17 @@
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar numeros\bin\Debug\net6.0-windows\Organizar numeros.exe
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar numeros\bin\Debug\net6.0-windows\Organizar numeros.deps.json
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar numeros\bin\Debug\net6.0-windows\Organizar numeros.runtimeconfig.json
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar numeros\bin\Debug\net6.0-windows\Organizar numeros.dll
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar numeros\bin\Debug\net6.0-windows\Organizar numeros.pdb
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar numeros\obj\Debug\net6.0-windows\Organizar numeros.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar numeros\obj\Debug\net6.0-windows\Organizar_numeros.Form1.resources
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar numeros\obj\Debug\net6.0-windows\Organizar numeros.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar numeros\obj\Debug\net6.0-windows\Organizar numeros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar numeros\obj\Debug\net6.0-windows\Organizar numeros.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar numeros\obj\Debug\net6.0-windows\Organizar numeros.AssemblyInfo.cs
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar numeros\obj\Debug\net6.0-windows\Organizar numeros.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar numeros\obj\Debug\net6.0-windows\Organizar numeros.dll
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar numeros\obj\Debug\net6.0-windows\refint\Organizar numeros.dll
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar numeros\obj\Debug\net6.0-windows\Organizar numeros.pdb
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar numeros\obj\Debug\net6.0-windows\Organizar numeros.genruntimeconfig.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar numeros\obj\Debug\net6.0-windows\ref\Organizar numeros.dll

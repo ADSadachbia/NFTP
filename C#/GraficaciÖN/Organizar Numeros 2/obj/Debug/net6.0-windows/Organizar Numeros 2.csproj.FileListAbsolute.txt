@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar Numeros 2\obj\Debug\net6.0-windows\Organizar Numeros 2.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar Numeros 2\obj\Debug\net6.0-windows\Organizar_Numeros_2.Form1.resources
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar Numeros 2\obj\Debug\net6.0-windows\Organizar Numeros 2.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar Numeros 2\obj\Debug\net6.0-windows\Organizar Numeros 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar Numeros 2\obj\Debug\net6.0-windows\Organizar Numeros 2.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar Numeros 2\obj\Debug\net6.0-windows\Organizar Numeros 2.AssemblyInfo.cs
+C:\Users\Admin\Desktop\C#\GraficaciÖN\Organizar Numeros 2\obj\Debug\net6.0-windows\Organizar Numeros 2.csproj.CoreCompileInputs.cache
